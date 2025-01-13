@@ -171,7 +171,4 @@ Okuduğunuz için teşekkür ederim.
 - Medium
 
 
-## Kullandığım Kaynaklar 
 
-- medium
-- wikipedia 
