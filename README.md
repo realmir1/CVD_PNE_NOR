@@ -14,9 +14,7 @@ Kaggle ve Visual Studio Code ortamında geliştirilmiştir.
 </div>
 
 ## Gerekli Kütüphaneler
-
 Proje için aşağıdaki Python kütüphaneleri gereklidir:
-
 - TensorFlow
 - NumPy
 - Matplotlib
@@ -48,10 +46,14 @@ Matplotlib, Python programlama dilinin temel çizim kitaplığıdır. Python gö
 
 
 
-##  Örnek Doğruluk Sonucu 🎬
+##  Örnek Doğruluk Sonucu ve Görsel Tahminleri 🎬
 <br>
 <div align="Center">
   <img src="https://github.com/realmir1/CVD_PNE_NOR/blob/main/Ekran%20Resmi%202025-01-13%2017.23.39.png?raw=true" height="350" alt="numpy logo"  />
+</div>
+
+<div align="Center">
+  <img src="e" height="350" alt="numpy logo"  />
 </div>
 
 <br>
@@ -133,3 +135,14 @@ for index in range(5):
     plt.axis('off')
 plt.show()
 ```
+
+
+## Teşekkürler
+
+Okuduğunuz için teşekkür ederim.
+
+
+## kaynaklar 
+
+- Wikipedia
+- Medium
