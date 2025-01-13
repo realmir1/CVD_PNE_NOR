@@ -22,24 +22,23 @@ Proje için aşağıdaki Python kütüphaneleri gereklidir:
   <img width="12" />
 </div>
 
-## Keras
+## Keras <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1200px-Keras_logo.svg.png" width="35" align="left">
 
 Keras, derin öğrenme (deep learning) uygulamaları geliştirmek için kullanılan açık kaynaklı bir Python kütüphanesidir. Başlangıçta Theano ve TensorFlow gibi arka uç kütüphanelerine dayanarak çalışıyordu, ancak günümüzde TensorFlow'un yüksek seviyeli API'si olarak entegre edilmiştir. Keras, kullanıcı dostu ve modüler bir yapıya sahip olup, hızlı prototipleme, eğitim ve derin öğrenme modellerinin geliştirilmesi için idealdir.
 
-## Numpy 
-
+## Numpy <img src="https://numpy.org/images/logo.svg" alt="Numpy Logo" width="35" align="left">
 NumPy, Python dilinde büyük sayılar ve çok boyutlu diziler üzerinde hızlı ve etkili matematiksel işlemler gerçekleştirmeye olanak sağlayan bir python kütüphanedir. NumPy, aynı zamanda Python'da matematiksel işlemler yapmak için kullanılan diğer kütüphanelerle uyumlu bir şekilde çalışır.
 
-## Tensorflow
-
+## Tensorflow <img src="https://avatars.githubusercontent.com/u/15658638?s=280&v=4" alt="Numpy Logo" width="35" align="left">
 TensorFlow, makine öğrenimi için ücretsiz ve açık kaynaklı bir yazılım kütüphanesidir . Bir dizi görevde kullanılabilir, ancak derin sinir ağlarının eğitimi ve çıkarımına özel olarak odaklanmaktadır
 
-##Matplotlib
+## Matplotlib <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Created_with_Matplotlib-logo.svg/2048px-Created_with_Matplotlib-logo.svg.png" alt="Numpy Logo" width="35" align="left">
+
+Matplotlib, Python programlama dilinin temel çizim kitaplığıdır. Python görselleştirme paketleri arasında en yaygın kullanılanıdır.
 
 
 
-
-##  Örnek Doğruluk Sonucu
+##  Örnek Doğruluk Sonucu 🎬
 <br>
 <div align="Center">
   <img src="https://github.com/realmir1/CVD_PNE_NOR/blob/main/Ekran%20Resmi%202025-01-13%2017.23.39.png?raw=true" height="350" alt="numpy logo"  />
@@ -47,7 +46,7 @@ TensorFlow, makine öğrenimi için ücretsiz ve açık kaynaklı bir yazılım 
 
 <br>
 
-## Veri Seti
+## Veri Seti 
 
 Bu projede kullanılan veri seti, COVID-19, Pneumonia ve Normal sınıflarına ait göğüs röntgeni görüntülerinden oluşmaktadır. Veri seti Kaggle üzerinden temin edilebilir. Veri seti üç ana sınıftan oluşur:
 
@@ -55,7 +54,7 @@ Bu projede kullanılan veri seti, COVID-19, Pneumonia ve Normal sınıflarına a
 - **Normal**: Sağlıklı bireylerin röntgen görüntüleri.
 - **Pneumonia**: Zatürre hastalığına ait röntgen görüntüleri.
 
-## Kütüphelerin Kullanıldığı Yerler
+## Kütüphelerin Kullanıldığı Yerler 🏛️
 
 | Kütüphaneler       | Kullanım Alanı       |
 |--------------------|----------------------|
@@ -64,7 +63,7 @@ Bu projede kullanılan veri seti, COVID-19, Pneumonia ve Normal sınıflarına a
 | Matlpotlib         | Grafik İşleme        |
 | Numpy              | İşleme               | 
 
-## Model Mimarisi
+## Model Mimarisi ⛏️
 
 Model, aşağıdaki evrişimsel katmanları içeren basit bir CNN yapısı ile oluşturulmuştur:
 
@@ -78,13 +77,13 @@ Model, aşağıdaki evrişimsel katmanları içeren basit bir CNN yapısı ile o
 8. **Dense**: Tam bağlantılı katman (128 nöron).
 9. **Dense**: Çıkış katmanı, softmax aktivasyon fonksiyonu ile çok sınıflı sınıflandırma.
 
-### Model Derinliği
+### Model Derinliği 🕳️
 
 - **Optimizasyon**: Adam optimizasyon algoritması.
 - **Kayıp Fonksiyonu**: Categorical Crossentropy.
 - **Metriği**: Doğruluk (`accuracy`).
 
-## Eğitim ve Test Hakkında Bilgi
+## Eğitim ve Test Hakkında Bilgi 
 Dataların %10 u test amaçl, %90 ı eğitim amaçlı kullanılmıştır.
 Model, aşağıdaki gibi eğitilmiştir:
 
