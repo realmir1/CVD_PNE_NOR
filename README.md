@@ -10,13 +10,42 @@ Proje için aşağıdaki Python kütüphaneleri gereklidir:
 - TensorFlow
 - NumPy
 - Matplotlib
-- 
+- Keras
+<br>
+<div align="Center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="50" alt="numpy logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="50" alt="tensorflow logo"  />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Created_with_Matplotlib-logo.svg/2048px-Created_with_Matplotlib-logo.svg.png" height="50" alt="plotlib logo"  />
+  <img width="12" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1200px-Keras_logo.svg.png" height="50" alt="plotlib logo"/>
+  <img width="12" />
+</div>
 
-Bu kütüphaneleri yüklemek için aşağıdaki komutları kullanabilirsiniz:
+## Keras
 
-```bash
-pip install tensorflow numpy matplotlib
-```
+Keras, derin öğrenme (deep learning) uygulamaları geliştirmek için kullanılan açık kaynaklı bir Python kütüphanesidir. Başlangıçta Theano ve TensorFlow gibi arka uç kütüphanelerine dayanarak çalışıyordu, ancak günümüzde TensorFlow'un yüksek seviyeli API'si olarak entegre edilmiştir. Keras, kullanıcı dostu ve modüler bir yapıya sahip olup, hızlı prototipleme, eğitim ve derin öğrenme modellerinin geliştirilmesi için idealdir.
+
+## Numpy 
+
+NumPy, Python dilinde büyük sayılar ve çok boyutlu diziler üzerinde hızlı ve etkili matematiksel işlemler gerçekleştirmeye olanak sağlayan bir python kütüphanedir. NumPy, aynı zamanda Python'da matematiksel işlemler yapmak için kullanılan diğer kütüphanelerle uyumlu bir şekilde çalışır.
+
+## Tensorflow
+
+TensorFlow, makine öğrenimi için ücretsiz ve açık kaynaklı bir yazılım kütüphanesidir . Bir dizi görevde kullanılabilir, ancak derin sinir ağlarının eğitimi ve çıkarımına özel olarak odaklanmaktadır
+
+##Matplotlib
+
+
+
+
+##  Örnek Doğruluk Sonucu
+<br>
+<div align="Center">
+  <img src="https://github.com/realmir1/CVD_PNE_NOR/blob/main/Ekran%20Resmi%202025-01-13%2017.23.39.png?raw=true" height="350" alt="numpy logo"  />
+</div>
+
+<br>
 
 ## Veri Seti
 
@@ -26,13 +55,14 @@ Bu projede kullanılan veri seti, COVID-19, Pneumonia ve Normal sınıflarına a
 - **Normal**: Sağlıklı bireylerin röntgen görüntüleri.
 - **Pneumonia**: Zatürre hastalığına ait röntgen görüntüleri.
 
-### Veri Kümesi Konumu
+## Kütüphelerin Kullanıldığı Yerler
 
-Veri setinin bulunduğu ana dizin, `base_dir` olarak belirtilmiştir. Aşağıdaki gibi dizini değiştirerek, verinizi doğru şekilde gösterebilirsiniz.
-
-```python
-base_dir = "/path/to/dataset"
-```
+| Kütüphaneler       | Kullanım Alanı       |
+|--------------------|----------------------|
+| TensorFlow         | Derin Öğrenme        |
+| Keras              | Derin Öğrenme        |
+| Matlpotlib         | Grafik İşleme        |
+| Numpy              | İşleme               | 
 
 ## Model Mimarisi
 
@@ -54,8 +84,8 @@ Model, aşağıdaki evrişimsel katmanları içeren basit bir CNN yapısı ile o
 - **Kayıp Fonksiyonu**: Categorical Crossentropy.
 - **Metriği**: Doğruluk (`accuracy`).
 
-## Eğitim ve Test
-
+## Eğitim ve Test Hakkında Bilgi
+Dataların %10 u test amaçl, %90 ı eğitim amaçlı kullanılmıştır.
 Model, aşağıdaki gibi eğitilmiştir:
 
 ```python
@@ -94,10 +124,3 @@ for index in range(5):
     plt.axis('off')
 plt.show()
 ```
-
-## Sonuçlar
-
-Eğitim ve test doğruluk oranlarını ve modelin görsel tahminlerini gösteren grafikler, modelin performansını değerlendirmek için kullanılır.
-
-
-
