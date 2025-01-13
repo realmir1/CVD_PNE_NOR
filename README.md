@@ -2,6 +2,12 @@
 # COVID-19, Pneumonia ve Normal Göğüs Röntgeni Sınıflandırma
 
 Bu projede, COVID-19, Pneumonia ve Normal göğüs röntgeni görüntülerini sınıflandıran bir derin öğrenme modeli geliştirilmiştir. Model, TensorFlow ve Keras kullanarak oluşturulmuş ve görsellerin sınıflandırılması amacıyla bir evrişimsel sinir ağı (CNN) uygulanmıştır.
+<p align="center">
+  <img src="https://i.pinimg.com/originals/10/90/b0/1090b076249fea28b750c046e96c5489.gif" alt="Example GIF">
+</p>
+
+
+
 
 ## Geliştirldiği Ortamlar
 Kaggle ve Visual Studio Code ortamında geliştirilmiştir.
