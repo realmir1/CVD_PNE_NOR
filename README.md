@@ -53,7 +53,7 @@ Matplotlib, Python programlama dilinin temel çizim kitaplığıdır. Python gö
 </div>
 
 <div align="Center">
-  <img src="https://github.com/realmir1/CVD_PNE_NOR/blob/main/Ekran%20Resmi%202025-01-13%2019.25.32.png?raw=true" height="350" alt="numpy logo"  />
+  <img src="https://github.com/realmir1/CVD_PNE_NOR/blob/main/Ekran%20Resmi%202025-01-13%2019.25.32.png?raw=true" height="250" alt="numpy logo"  />
 </div>
 
 <br>
