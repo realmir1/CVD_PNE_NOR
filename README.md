@@ -40,16 +40,29 @@ Proje için aşağıdaki Python kütüphaneleri gereklidir:
 
 Keras, derin öğrenme (deep learning) uygulamaları geliştirmek için kullanılan açık kaynaklı bir Python kütüphanesidir. Başlangıçta Theano ve TensorFlow gibi arka uç kütüphanelerine dayanarak çalışıyordu, ancak günümüzde TensorFlow'un yüksek seviyeli API'si olarak entegre edilmiştir. Keras, kullanıcı dostu ve modüler bir yapıya sahip olup, hızlı prototipleme, eğitim ve derin öğrenme modellerinin geliştirilmesi için idealdir.
 
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*BIpRgx5FsEMhr1k2EqBKFg.gif" alt="Example GIF">
+</p>
+
 ## Numpy <img src="https://numpy.org/images/logo.svg" alt="Numpy Logo" width="35" align="left">
 NumPy, Python dilinde büyük sayılar ve çok boyutlu diziler üzerinde hızlı ve etkili matematiksel işlemler gerçekleştirmeye olanak sağlayan bir python kütüphanedir. NumPy, aynı zamanda Python'da matematiksel işlemler yapmak için kullanılan diğer kütüphanelerle uyumlu bir şekilde çalışır.
 
+<p align="center">
+  <img src="https://matteding.github.io/images/broadcasting-3d-scalar.gif" alt="Example GIF">
+</p>
+
 ## Tensorflow <img src="https://avatars.githubusercontent.com/u/15658638?s=280&v=4" alt="Numpy Logo" width="35" align="left">
 TensorFlow, makine öğrenimi için ücretsiz ve açık kaynaklı bir yazılım kütüphanesidir . Bir dizi görevde kullanılabilir, ancak derin sinir ağlarının eğitimi ve çıkarımına özel olarak odaklanmaktadır
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*SB-Fu_AySBggAAxq0Q2Wew.gif" alt="Example GIF">
+</p>
 
 ## Matplotlib <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Created_with_Matplotlib-logo.svg/2048px-Created_with_Matplotlib-logo.svg.png" alt="Numpy Logo" width="35" align="left">
 
 Matplotlib, Python programlama dilinin temel çizim kitaplığıdır. Python görselleştirme paketleri arasında en yaygın kullanılanıdır.
-
+<p align="center">
+  <img src="https://i.sstatic.net/hsiBX.gif" alt="Example GIF">
+</p>
 
 
 ##  Örnek Doğruluk Sonucu ve Görsel Tahminleri 🎬
@@ -71,6 +84,10 @@ Bu projede kullanılan veri seti, COVID-19, Pneumonia ve Normal sınıflarına a
 - **COVİD**: COVID-19 hastalığına ait röntgen görüntüleri.
 - **Normal**: Sağlıklı bireylerin röntgen görüntüleri.
 - **Pneumonia**: Zatürre hastalığına ait röntgen görüntüleri.
+<p align="center">
+ 
+</p>
+
 
 ## Kütüphelerin Kullanıldığı Yerler 🏛️
 
