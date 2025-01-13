@@ -3,6 +3,16 @@
 
 Bu projede, COVID-19, Pneumonia ve Normal göğüs röntgeni görüntülerini sınıflandıran bir derin öğrenme modeli geliştirilmiştir. Model, TensorFlow ve Keras kullanarak oluşturulmuş ve görsellerin sınıflandırılması amacıyla bir evrişimsel sinir ağı (CNN) uygulanmıştır.
 
+## Geliştirldiği Ortamlar
+Kaggle ve Visual Studio Code ortamında geliştirilmiştir.
+<br> 
+
+<div align="Center">
+  <img src="https://miro.medium.com/v2/resize:fit:1200/1*JSbnt_mxpFfkGtNtGbR40g.png" height="200" alt="numpy logo"  />
+  <img src="https://www.justinjbird.me/images/apps/vscode.webp" height="200" alt="numpy logo"  />
+<br>
+</div>
+
 ## Gerekli Kütüphaneler
 
 Proje için aşağıdaki Python kütüphaneleri gereklidir:
