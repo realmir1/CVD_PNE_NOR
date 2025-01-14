@@ -84,6 +84,10 @@ Bu projede kullanılan veri seti, COVID-19, Pneumonia ve Normal sınıflarına a
 - **COVİD**: COVID-19 hastalığına ait röntgen görüntüleri.
 - **Normal**: Sağlıklı bireylerin röntgen görüntüleri.
 - **Pneumonia**: Zatürre hastalığına ait röntgen görüntüleri.
+
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/0*t-EXceS-BWsg0ljO.gif" alt="Example GIF" height="300", width="400">
+</p>
 <p align="center">
  
 </p>
